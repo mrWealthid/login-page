@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Red+Hat+Display&family=Tinos&display=swap");
+
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Caudex", serif;
+  /* font-family: "Red Hat Display", sans-serif; */
+  /* font-family: "Tinos", serif; */
+  margin: 0px;
+}
+
+main {
+  background-color: #5f9ea069;
+  padding: 10px;
+  width: 95%;
+  margin: 10px auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 55% 35%;
+  margin: 50px auto;
+  background-color: white;
+  width: 85%;
+  height: 140vh;
+  border-radius: 3%;
+  padding: 20px;
+}
+
+.logo {
+  font-size: larger;
+
+  font-weight: bold;
+}
+
+a {
+  color: #00bfa6;
+}
+#btn {
+  background-color: #00bfa6;
+  width: 80%;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  color: wheat;
+  font-weight: 600;
+  font-family: "Caudex";
+  transition: 0.5s;
+}
+
+#btn:hover {
+  background-color: white;
+  color: #00bfa6;
+  border: 1px solid gainsboro;
+}
+input {
+  width: 80%;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(250, 248, 248);
+  border: 1px solid gainsboro;
+  font-family: "Caudex";
+}
+
+.wrapper #main2 {
+  margin-top: 145px;
+}
+
+.wrapper #main1 {
+  padding: 60px;
+  background-image: url(undraw_authentication_fsn5.svg);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 65px 265px;
+}
+
+#main2 p {
+  color: gray;
+}
+input:focus {
+  border: 1px solid #00bfa6;
+}
+
+#register {
+  text-align: center;
+  color: black !important;
+}
+#psw {
+  text-align: end;
+  width: 80%;
+  color: black !important;
+}
+
+#main-color {
+  color: #00bfa6;
+}
+
+.wrapper {
+  position: relative;
+}
+span #text-color {
+  color: #00bfa6;
+}
+footer {
+  margin-top: 8rem;
+  color: gray;
+  text-align: center;
+}
+.fa {
+  color: #00bfa6;
+}
+
+@media (max-width: 905px) {
+  footer {
+    margin-top: 6em;
+  }
+}
+
+@media (max-width: 750px) {
+  #main1 {
+    display: none;
+  }
+  .wrapper #main2 {
+    margin: 0px auto;
+    width: 60vw;
+    padding: 30px;
+  }
+  .wrapper {
+    margin: 0px auto;
+    grid-template-columns: auto;
+    position: relative;
+  }
+  footer {
+    margin-top: 18rem;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    margin-top: 16rem;
+  }
+}
+
+@media (max-width: 450px) {
+  footer {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 350px) {
+  footer {
+    margin-top: 2rem;
+  }
+}
