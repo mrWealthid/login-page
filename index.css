@@ -32,8 +32,8 @@ main {
 }
 
 .logo {
-  font-size: larger;
-  font-weight: bold;
+  font-size: x-large;
+  font-weight: bolder;
   display: block;
   margin-bottom: 50px;
 }
