@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Red+Hat+Display&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Mitr:wght@300&family=Raleway&family=Red+Hat+Display&family=Sora&family=Tinos&display=swap");
 
 * {
   text-decoration: none;
@@ -21,19 +21,21 @@ main {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 55% 35%;
+  grid-template-columns: 55% 40%;
   margin: 50px auto;
-  background-color: white;
+  background-color: #fffcf8;
   width: 85%;
   height: 140vh;
   border-radius: 3%;
   padding: 20px;
+  color: #000000c7;
 }
 
 .logo {
   font-size: larger;
-
   font-weight: bold;
+  display: block;
+  margin-bottom: 50px;
 }
 
 a {
@@ -44,7 +46,7 @@ a {
   width: 80%;
   outline: none;
   border-radius: 5px;
-  padding: 10px;
+  padding: 13px;
   border: none;
   color: wheat;
   font-weight: 600;
@@ -68,7 +70,7 @@ input {
 }
 
 .wrapper #main2 {
-  margin-top: 145px;
+  margin-top: 128px;
 }
 
 .wrapper #main1 {
@@ -89,11 +91,14 @@ input:focus {
 #register {
   text-align: center;
   color: black !important;
+  width: 80%;
+  display: inline-block;
 }
 #psw {
   text-align: end;
   width: 80%;
   color: black !important;
+  display: inline-block;
 }
 
 #main-color {
@@ -107,18 +112,12 @@ span #text-color {
   color: #00bfa6;
 }
 footer {
-  margin-top: 8rem;
+  margin-top: 11rem;
   color: gray;
   text-align: center;
 }
 .fa {
   color: #00bfa6;
-}
-
-@media (max-width: 905px) {
-  footer {
-    margin-top: 6em;
-  }
 }
 
 @media (max-width: 750px) {
@@ -127,7 +126,7 @@ footer {
   }
   .wrapper #main2 {
     margin: 0px auto;
-    width: 60vw;
+    width: 70vw;
     padding: 30px;
   }
   .wrapper {
@@ -135,20 +134,20 @@ footer {
     grid-template-columns: auto;
     position: relative;
   }
+
+  #main2 h2 {
+    text-align: center;
+  }
   footer {
-    margin-top: 18rem;
+    margin-top: 15rem;
+    color: gray;
+    text-align: center;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   footer {
-    margin-top: 16rem;
-  }
-}
-
-@media (max-width: 450px) {
-  footer {
-    margin-top: 10rem;
+    margin-top: 6rem;
   }
 }
 
