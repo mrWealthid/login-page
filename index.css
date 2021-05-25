@@ -22,12 +22,13 @@ main {
 .wrapper {
   display: grid;
   grid-template-columns: 55% 40%;
+  grid-gap: 30px;
   margin: 50px auto;
   background-color: #fffcf8;
   width: 85%;
   height: 140vh;
   border-radius: 3%;
-  padding: 20px;
+  padding: 0px 0px;
   color: #000000c7;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -80,6 +81,8 @@ input {
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: 65px 265px;
+  background-color: #5f9ea012;
+  border-radius: 3% 0% 0% 3%;
 }
 
 #main2 p {
