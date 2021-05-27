@@ -116,9 +116,12 @@ span #text-color {
   color: #00bfa6;
 }
 footer {
-  margin-top: 11rem;
+  margin-bottom: 10px;
   color: gray;
   text-align: center;
+  position: absolute;
+  transform: translate(0%);
+  bottom: 0%;
 }
 .fa {
   color: #00bfa6;
@@ -137,26 +140,27 @@ footer {
     margin: 0px auto;
     grid-template-columns: auto;
     position: relative;
+    width: 100%;
+    height: 93vh;
   }
-
+  #btn {
+    width: 90%;
+  }
+  input {
+    width: 90%;
+  }
   #main2 h2 {
     text-align: center;
-  }
-  footer {
-    margin-top: 15rem;
-    color: gray;
-    text-align: center;
+
+    margin-top: 4px;
   }
 }
 
-@media (max-width: 500px) {
-  footer {
-    margin-top: 6rem;
+@media (max-width: 250px) {
+  #main2 h2 {
+    display: none;
   }
-}
-
-@media (max-width: 350px) {
   footer {
-    margin-top: 2rem;
+    text-align: left;
   }
 }
